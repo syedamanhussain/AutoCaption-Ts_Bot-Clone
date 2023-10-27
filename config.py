@@ -9,4 +9,4 @@ class Config(object):
       CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "nil")
       ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "bookuploadingbot")
       ADMIN_ID = int(os.environ.get("ADMIN_ID", 123476535 )) 
-      DB_URL = os.environ.get("DATABASE_URL", "")
+      DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://syedamanhusain:<syedamanhusain>@cluster0.k009uml.mongodb.net/?retryWrites=true&w=majority")
